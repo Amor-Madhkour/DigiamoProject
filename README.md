@@ -2,9 +2,9 @@
 test di valutazione
 
 In questo progetto ho innanzitutto fatto un analisi del dataset fornito. Dal dataset si evince che ci sono 21 classi diverse di output. Il Dataset ha circa 320 mila row. Non è bilanciato come si vede:
-mainichi.jp          44657
 
-sankei.jp.msn.com    35959
+* mainichi.jp          44657
+*sankei.jp.msn.com    35959
 
 nikkei.com           29323
 sanspo.com           26303
