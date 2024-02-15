@@ -24,6 +24,7 @@ tokachi.co.jp          176
 chunichi.co.jp          73
 tokyo-np.co.jp          65
 
+
 Ho provato sia tecniche utilizzando modelli di ML come RandomForrest, SVM che tecniche di deep learning in cui dopo vari tentativi ho trovato una rete convoluzionale che performa abbastanza per bene per questa tipologia di task. Ho provato a fare fine-tuning dei  parametri utilizzando varie  tipologie di tuner tra cui RansomSearch, BayesianOptimization e Hyperband per trovare i migliori iperparametri dei vari layer della rete. Ho usato anche come approccio il trasnfer+learning utilizzando una rete molto utilizzata con i linguaggi(BERT) e per bilanciare il dataset ho provato anche tecniche come oversampling e dato pesi diversi alle varie classi inversamente proporziale al numero di elementi per ogni output.
 
 
